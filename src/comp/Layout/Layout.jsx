@@ -88,26 +88,15 @@ export default function Layout() {
             <div className='flex ms-3 absolute bottom-8 left-[20px] gap-1 items-center '>
 
               <input placeholder='What do u need ? 😉' onChange={(e)=>setInputWhats(e.target.value)} value={inputWhats} type="text" className='bg-white rounded-full focus:outline-0 py-2 px-3 text-[13px] w-[210px]' />
-<button
-  onClick={() => {
-    const phone = "201505753059"; // رقمك بدون +
-    const message = inputWhats.trim() || "Details, please";
-    const encodedMessage = encodeURIComponent(message);
-    const finalUrl = `https://api.whatsapp.com/send?phone=${phone}&text=${encodedMessage}`;
-
-    // ✅ الحل النهائي
-    const a = document.createElement("a");
-    a.href = finalUrl;
-    a.target = "_blank"; // يفتح التطبيق أو الواتساب في تبويب جديد (يسمح به الموبايل)
-    a.rel = "noopener noreferrer";
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
-  }}
+<a
+  href={`https://api.whatsapp.com/send?phone=201505753059&text=${encodeURIComponent(inputWhats.trim() || "Details, please")}`}
+  target="_blank"
+  rel="noopener noreferrer"
   className="bg-gray-300 cursor-pointer w-[40px] h-[40px] rounded-full flex justify-center items-center"
 >
   <i className="fa-solid fa-paper-plane text-gray-50"></i>
-</button>
+</a>
+
 
 
 
