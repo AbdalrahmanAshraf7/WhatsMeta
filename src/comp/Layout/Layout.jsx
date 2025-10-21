@@ -93,15 +93,22 @@ export default function Layout() {
     const phone = "201505753059"; // رقمك بدون +
     const message = inputWhats.trim() || "Details, please";
     const encodedMessage = encodeURIComponent(message);
-    const finalUrl = `https://wa.me/${phone}?text=${encodedMessage}`;
-    
-    // ✅ الأفضل استخدام assign لتفادي مشاكل الـ WebView
-    window.location.assign(finalUrl);
+    const finalUrl = `https://api.whatsapp.com/send?phone=${phone}&text=${encodedMessage}`;
+
+    // ✅ الحل النهائي
+    const a = document.createElement("a");
+    a.href = finalUrl;
+    a.target = "_blank"; // يفتح التطبيق أو الواتساب في تبويب جديد (يسمح به الموبايل)
+    a.rel = "noopener noreferrer";
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
   }}
   className="bg-gray-300 cursor-pointer w-[40px] h-[40px] rounded-full flex justify-center items-center"
 >
   <i className="fa-solid fa-paper-plane text-gray-50"></i>
 </button>
+
 
 
            
