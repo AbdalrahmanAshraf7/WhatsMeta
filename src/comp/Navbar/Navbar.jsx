@@ -31,6 +31,9 @@ export default function Navbar() {
         <li>
           <NavLink to={"services"} className="block py-2 px-3 text-black  rounded-sm md:bg-transparent  md:aria-[current=page]:bg-transparent md:p-0  aria-[current=page]:text-green-600 aria-[current=page]:bg-green-50" aria-current="page">Services</NavLink>
         </li>
+        <li>
+          <NavLink to={"docs"} className="block py-2 px-3 text-black  rounded-sm md:bg-transparent  md:aria-[current=page]:bg-transparent md:p-0  aria-[current=page]:text-green-600 aria-[current=page]:bg-green-50" aria-current="page">Documentation</NavLink>
+        </li>
      
         
         
