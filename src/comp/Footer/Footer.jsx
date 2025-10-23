@@ -30,7 +30,7 @@ export default function Footer() {
         </div>
     </div>
     <div className='text-center p-5 border-t-1 border-gray-200 bg-[#f2f2f2]'>
-        © 2025 | All rights reserved by Torvo
+        <span className='font-semibold'>© 2025 | All rights reserved by Torvo</span>
     </div>
     
 
