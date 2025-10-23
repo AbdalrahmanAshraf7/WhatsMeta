@@ -62,16 +62,138 @@ export default function SideDocBar() {
             </NavLink>
 
             <div className={`ms-7 mt-3 ${openSections["Messaging"] ? "" : "hidden"}`}>
-                <li  onClick={()=>toggleSection("WhatsAPPApi")}>
-                WhatsApp Api
-                </li>
+                <NavLink to={"WhatsAPPApi"} className='aria-[current=page]:text-green-700 aria-[current=page]:font-bold aria-[current=page]:bg-green-400    '>
+                    <li  onClick={()=>toggleSection("WhatsAPPApi")}>
+                      WhatsApp Api
+                     </li>
+                </NavLink>
                 <div className='ms-8'>
-                    <li className={` mt-5 ${openSections["WhatsAPPApi"] ? "" : "hidden"}`}> 
+                    <NavLink to={"GettingStarted"} className='aria-[current=page]:text-green-700 aria-[current=page]:font-bold aria-[current=page]:bg-green-400    '>
+                    <li className={` mt-5 ${openSections["WhatsAPPApi"] ? "" : "hidden"}`} onClick={()=>toggleSection("GettingStarted")}> 
                         Getting Started With WhatsApp API
                     </li >
-                    <li className={` mt-5 ${openSections["WhatsAPPApi"] ? "" : "hidden"}`}>
+                    </NavLink>
+                    <div className={` mt-5 ms-5 ${openSections["GettingStarted"] ? "" : "hidden"}`} >
+                      <NavLink to={"NewNumber"} className='aria-[current=page]:text-green-700 aria-[current=page]:font-bold aria-[current=page]:bg-green-400    '>
+                        <li className='mt-3 '>
+                            Register a New Number
+                        </li >
+                        </NavLink>
+                        <NavLink to={"MigrateNumber"} className='aria-[current=page]:text-green-700 aria-[current=page]:font-bold aria-[current=page]:bg-green-400    '>
+                        <li className='mt-3 '>
+                            Migrate an Existing Number
+                        </li>
+                        </NavLink>
+                       <NavLink to={"MigrationStuck"} className='aria-[current=page]:text-green-700 aria-[current=page]:font-bold aria-[current=page]:bg-green-400    '>
+                        <li className='mt-3 '>
+                            Migration Stuck In Between Or Getting Permissions Error
+                        </li>
+                        </NavLink>
+                        <NavLink to={"ChangeWhatsAppName"} className='aria-[current=page]:text-green-700 aria-[current=page]:font-bold aria-[current=page]:bg-green-400    '>
+                        <li className='mt-3 '>
+                            Change WhatsApp Display Name ?
+                        </li>
+                        </NavLink>
+                        <NavLink to={"FacebookBusinessVerification"} className='aria-[current=page]:text-green-700 aria-[current=page]:font-bold aria-[current=page]:bg-green-400    '>
+                        <li className='mt-3 '> 
+                           How To Apply For Facebook Business Verification ?
+                        </li>
+                        </NavLink>
+                    </div>
+
+                    <NavLink to={"ManagingyouWhatsAppAPI"} className='aria-[current=page]:text-green-700 aria-[current=page]:font-bold aria-[current=page]:bg-green-400    '>
+                    <li className={` mt-5 ${openSections["WhatsAPPApi"] ? "" : "hidden"}`} onClick={()=>toggleSection("ManagingyourWhatsAppAPI")}>
                         Managing your WhatsApp API
                     </li>
+                    </NavLink>
+
+                    <div  className={`ms-5 mt-3 ${openSections["ManagingyourWhatsAppAPI"] ? "" : "hidden"}`} >
+                      <NavLink to={"UpdateBusinessProfile"} className='aria-[current=page]:text-green-700 aria-[current=page]:font-bold aria-[current=page]:bg-green-400    '>
+                        <li className='mt-3'>
+                            How To Update Business Profile And Display Picture Of Your WhatsApp API Number ?
+                        </li>
+                        </NavLink>
+
+                     <NavLink to={"SendMessagesViaAPI"} className='aria-[current=page]:text-green-700 aria-[current=page]:font-bold aria-[current=page]:bg-green-400    '>
+                        <li className='mt-3'>
+                           How to Send Messages Via API For your Official WhatsApp Number ( Postman ) ?
+                        </li>
+                    </NavLink>
+
+                     <NavLink to={"SetWebhookUrl"} className='aria-[current=page]:text-green-700 aria-[current=page]:font-bold aria-[current=page]:bg-green-400    '>
+                        <li className='mt-3'>
+                           How to Set Webhook Url to Receive Delivery Reports / Message Statues From Meta For Your WhatsApp API
+                        </li>
+                        </NavLink>
+
+                       <NavLink to={"HowToCreateQrCode"} className='aria-[current=page]:text-green-700 aria-[current=page]:font-bold aria-[current=page]:bg-green-400    '>
+                        <li className='mt-3'>
+                           How To Create Qr Code For Your WhatsApp API Number ?
+                        </li>
+                        </NavLink>
+
+                        <NavLink to={"a2faForYourWhatsApp"} className='aria-[current=page]:text-green-700 aria-[current=page]:font-bold aria-[current=page]:bg-green-400    '>
+                        <li className='mt-3'>
+                           How To Set 2fa For Your WhatsApp Channel ?
+                        </li>
+                        </NavLink>
+
+                        <NavLink to={"SendTestMessages"} className='aria-[current=page]:text-green-700 aria-[current=page]:font-bold aria-[current=page]:bg-green-400    '>
+                        <li className='mt-3'>
+                           How to Send Test Messages And find out why messages are not delivering for WhatsApp API Channel ?
+                        </li>
+                        </NavLink>
+
+                        <NavLink to={"HowToCreateCommands"} className='aria-[current=page]:text-green-700 aria-[current=page]:font-bold aria-[current=page]:bg-green-400    '>
+                        <li className='mt-3'>
+                           How To Create Commands On WhatsApp Or Predefined Menu Or Quick Access Menu ?
+                        </li>
+                        </NavLink>
+
+                         <NavLink to={"HowToRequestIncrease"} className='aria-[current=page]:text-green-700 aria-[current=page]:font-bold aria-[current=page]:bg-green-400    '>
+                        <li className='mt-3'>
+                           How To Request Increase For WhatsApp Phone Number Limit For Meta Business Manager ?
+                        </li>
+                        </NavLink>
+                         
+                        <NavLink to={"HowToApplyForGreenTick"} className='aria-[current=page]:text-green-700 aria-[current=page]:font-bold aria-[current=page]:bg-green-400    '>
+                        <li className='mt-3'>
+                          How To Apply For Green Tick In WhatsApp ?
+                        </li>
+                        </NavLink>
+
+                        <NavLink to={"HowToBulkCloneWhatsAppTemplates"} className='aria-[current=page]:text-green-700 aria-[current=page]:font-bold aria-[current=page]:bg-green-400    '>
+                        <li className='mt-3'>
+                           How to Bulk Clone WhatsApp Templates Between Different WhatsApp API Numbers ?
+                        </li>
+                        </NavLink>
+
+                        <NavLink to={"AccountQuality"} className='aria-[current=page]:text-green-700 aria-[current=page]:font-bold aria-[current=page]:bg-green-400    '>
+                        <li className='mt-3'>
+                           Account Quality
+                        </li>
+                        </NavLink>
+
+                        <NavLink to={"MessagingLimits"} className='aria-[current=page]:text-green-700 aria-[current=page]:font-bold aria-[current=page]:bg-green-400    '>
+                        <li className='mt-3'>
+                           Messaging Limits
+                        </li>
+                        </NavLink>
+
+                        <NavLink to={"CreateIceBreakers"} className='aria-[current=page]:text-green-700 aria-[current=page]:font-bold aria-[current=page]:bg-green-400    '>
+                        <li className='mt-3'>
+                           How to Create Ice Breakers For WhatsApp API ?
+                        </li>
+                        </NavLink>
+
+                         <NavLink to={"SendWelcomeMessagetoUsersOnFirstTimeOpening"} className='aria-[current=page]:text-green-700 aria-[current=page]:font-bold aria-[current=page]:bg-green-400    '>
+                        <li className='mt-3'>
+                           How to Send Welcome Message to Users On First Time Opening your WhatsApp Number ?
+                        </li>
+                        </NavLink>
+
+                        
+                    </div>
 
                 </div>
             </div>

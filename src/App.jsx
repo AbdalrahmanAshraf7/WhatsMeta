@@ -35,6 +35,33 @@ import SendCarouselTemplate from "./comp/DocsComp/Crm/Campaigns/SendCarouselTemp
 import StopUsers from "./comp/DocsComp/Crm/Campaigns/StopUsers.jsx"
 import UseAPICampaigns from "./comp/DocsComp/Crm/Campaigns/UseAPICampaigns.jsx"
 
+import WhatsAppApi from "./comp/DocsComp/MessagingChannels/WhatsAppApi/WhatsAppApi.jsx"
+import GettingStarted from "./comp/DocsComp/MessagingChannels/WhatsAppApi/GettingStarted/GettingStarted.jsx"
+import MigrateNumber from "./comp/DocsComp/MessagingChannels/WhatsAppApi/GettingStarted/MigrateNumber.jsx"
+import MigrationStuck from "./comp/DocsComp/MessagingChannels/WhatsAppApi/GettingStarted/MigrationStuck.jsx"
+import NewNumber from "./comp/DocsComp/MessagingChannels/WhatsAppApi/GettingStarted/NewNumber.jsx"
+import FacebookBusinessVerification from "./comp/DocsComp/MessagingChannels/WhatsAppApi/GettingStarted/FacebookBusinessVerification.jsx"
+import ChangeWhatsAppName from "./comp/DocsComp/MessagingChannels/WhatsAppApi/GettingStarted/ChangeWhatsAppName.jsx"
+
+import ManagingyouWhatsAppAPI from "./comp/DocsComp/MessagingChannels/WhatsAppApi/ManagingyouWhatsAppAPI.jsx"
+import a2faForYourWhatsApp from "./comp/DocsComp/MessagingChannels/WhatsAppApi/ManagingyouWhatsAppAPI/a2faForYourWhatsApp.jsx"
+import AccountQuality from "./comp/DocsComp/MessagingChannels/WhatsAppApi/ManagingyouWhatsAppAPI/AccountQuality.jsx"
+import CreateCommandsOrMenuForEndUsers from "./comp/DocsComp/MessagingChannels/WhatsAppApi/ManagingyouWhatsAppAPI/CreateCommandsOrMenuForEndUsers.jsx"
+import CreateIceBreakers from "./comp/DocsComp/MessagingChannels/WhatsAppApi/ManagingyouWhatsAppAPI/CreateIceBreakers.jsx"
+import HowToApplyForGreenTick from "./comp/DocsComp/MessagingChannels/WhatsAppApi/ManagingyouWhatsAppAPI/HowToApplyForGreenTick.jsx"
+import HowToBulkCloneWhatsAppTemplates from "./comp/DocsComp/MessagingChannels/WhatsAppApi/ManagingyouWhatsAppAPI/HowToBulkCloneWhatsAppTemplates.jsx"
+import HowToCreateCommands from "./comp/DocsComp/MessagingChannels/WhatsAppApi/ManagingyouWhatsAppAPI/HowToCreateCommands.jsx"
+import HowToCreateQrCode from "./comp/DocsComp/MessagingChannels/WhatsAppApi/ManagingyouWhatsAppAPI/HowToCreateQrCode .jsx"
+import HowToRequestIncrease from "./comp/DocsComp/MessagingChannels/WhatsAppApi/ManagingyouWhatsAppAPI/HowToRequestIncrease.jsx"
+import MessagingLimits from "./comp/DocsComp/MessagingChannels/WhatsAppApi/ManagingyouWhatsAppAPI/MessagingLimits.jsx"
+import SendMessagesViaAPI from "./comp/DocsComp/MessagingChannels/WhatsAppApi/ManagingyouWhatsAppAPI/SendMessagesViaAPI.jsx"
+import SendTestMessages from "./comp/DocsComp/MessagingChannels/WhatsAppApi/ManagingyouWhatsAppAPI/SendTestMessages.jsx"
+import SendWelcomeMessagetoUsersOnFirstTimeOpening from "./comp/DocsComp/MessagingChannels/WhatsAppApi/ManagingyouWhatsAppAPI/SendWelcomeMessagetoUsersOnFirstTimeOpening.jsx"
+import SetWebhookUrl from "./comp/DocsComp/MessagingChannels/WhatsAppApi/ManagingyouWhatsAppAPI/SetWebhookUrl.jsx"
+import UpdateBusinessProfile from "./comp/DocsComp/MessagingChannels/WhatsAppApi/ManagingyouWhatsAppAPI/UpdateBusinessProfile.jsx"
+
+
+
 
 
 
@@ -83,6 +110,31 @@ function App() {
         { path: "SendCarouselTemplate", element: <SendCarouselTemplate></SendCarouselTemplate> },
         { path: "StopUsers", element: <StopUsers></StopUsers> },
         { path: "UseAPICampaigns", element: <UseAPICampaigns></UseAPICampaigns> },
+
+        { path: "WhatsAppApi", element: <WhatsAppApi></WhatsAppApi> },
+        { path: "GettingStarted", element: <GettingStarted></GettingStarted> },
+        { path: "MigrateNumber", element: <MigrateNumber></MigrateNumber> },
+        { path: "MigrationStuck", element: <MigrationStuck></MigrationStuck> },
+        { path: "NewNumber", element: <NewNumber></NewNumber> },
+        { path: "FacebookBusinessVerification", element: <FacebookBusinessVerification></FacebookBusinessVerification> },
+        { path: "ChangeWhatsAppName", element: <ChangeWhatsAppName></ChangeWhatsAppName> },
+
+        { path: "ManagingyouWhatsAppAPI", element: <ManagingyouWhatsAppAPI></ManagingyouWhatsAppAPI> },
+        { path: "a2faForYourWhatsApp", element: <a2faForYourWhatsApp></a2faForYourWhatsApp> },
+        { path: "AccountQuality", element: <AccountQuality></AccountQuality> },
+        { path: "CreateCommandsOrMenuForEndUsers", element: <CreateCommandsOrMenuForEndUsers></CreateCommandsOrMenuForEndUsers> },
+        { path: "CreateIceBreakers", element: <CreateIceBreakers></CreateIceBreakers> },
+        { path: "HowToApplyForGreenTick", element: <HowToApplyForGreenTick></HowToApplyForGreenTick> },
+        { path: "HowToBulkCloneWhatsAppTemplates", element: <HowToBulkCloneWhatsAppTemplates></HowToBulkCloneWhatsAppTemplates> },
+        { path: "HowToCreateCommands", element: <HowToCreateCommands></HowToCreateCommands> },
+        { path: "HowToCreateQrCode", element: <HowToCreateQrCode ></HowToCreateQrCode > },
+        { path: "HowToRequestIncrease", element: <HowToRequestIncrease></HowToRequestIncrease> },
+        { path: "MessagingLimits", element: <MessagingLimits></MessagingLimits> },
+        { path: "SendMessagesViaAPI", element: <SendMessagesViaAPI></SendMessagesViaAPI> },
+        { path: "SendTestMessages", element: <SendTestMessages></SendTestMessages> },
+        { path: "SendWelcomeMessagetoUsersOnFirstTimeOpening", element: <SendWelcomeMessagetoUsersOnFirstTimeOpening></SendWelcomeMessagetoUsersOnFirstTimeOpening> },
+        { path: "SetWebhookUrl", element: <SetWebhookUrl></SetWebhookUrl> },
+        { path: "UpdateBusinessProfile", element: <UpdateBusinessProfile></UpdateBusinessProfile> },
 
       ]
     }
