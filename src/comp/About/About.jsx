@@ -5,7 +5,7 @@ export default function About() {
   return <>
 
   <div className='flex flex-col md:flex-row mt-14   '>
-    <div className='flex flex-col gap-2 p-3  md:w-[100%]   '>
+    <div className='flex flex-col gap-2 p-3  md:w-[80%]   '>
         <span className='flex flex-col gap-1 p-3 lg:px-52'>
          <p className='font-bold text-green-600 text-xl'>
             Our message 
@@ -34,8 +34,8 @@ export default function About() {
         </span>
     </div>
 
-    <div className=' p-52 md:w-[20%] flex relative'>
-        <img src={whatsMan} alt="" className=' absolute w-[250px]  lg:left-[-210px] left-[130px]  top-[-10px] md:left-[-10px] md:top-[50px]'/>
+    <div className='  md:w-[20%] flex relative justify-center'>
+        <img src={whatsMan} alt="" className=' md:absolute w-[200px]  lg:left-[-210px] left-[130px]   md:left-[-10px] md:top-[50px]'/>
 
     </div>
 
@@ -43,7 +43,7 @@ export default function About() {
 
   </div>
 
-  <div className='md:p-16 p-5  flex lg:flex-col md:flex-col  mb-14   '>
+  <div className='md:p-16 p-5  flex lg:flex-col md:flex-col  mb-14 mt-20 md:mt-10   '>
 
      <div className='flex flex-col md:flex-row w-full'>
     <div className=' w-full p-5 flex justify-end lg:justify-center md:order-2 '>
