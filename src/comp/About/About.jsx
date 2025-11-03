@@ -35,21 +35,20 @@ export default function About() {
     </div>
 
     <div className=' p-52 md:w-[20%] flex relative'>
-        <img src={whatsMan} alt="" className=' absolute w-[300px]  lg:left-[-210px] left-[130px]  top-[-10px] md:left-[-10px] md:top-[50px]'/>
+        <img src={whatsMan} alt="" className=' absolute w-[250px]  lg:left-[-210px] left-[130px]  top-[-10px] md:left-[-10px] md:top-[50px]'/>
 
     </div>
 
-
-
+    
 
   </div>
 
-  <div className='p-16  flex lg:flex-col md:flex-col mt-12 mb-14   '>
+  <div className='md:p-16 p-5  flex lg:flex-col md:flex-col  mb-14   '>
 
      <div className='flex flex-col md:flex-row w-full'>
     <div className=' w-full p-5 flex justify-end lg:justify-center md:order-2 '>
 
-<div className="flex  w-[400px] h-[400px] bg-green-700  justify-center items-center rounded-tl-[200px] rounded-bl-[250px] rounded-tr-[50px] rounded-br-[50px] mb-5">
+<div className="flex  md:w-[400px] w-[250px] h-[400px] bg-green-700  justify-center items-center rounded-tl-[200px] rounded-bl-[250px] rounded-tr-[50px] rounded-br-[50px] mb-5">
     <span className="text-2xl font-bold text-white">
         Our Priority
     </span>
@@ -57,7 +56,7 @@ export default function About() {
 
     </div>
 
-    <div className=' w-full p-5 grid grid-cols-1 lg:grid-cols-2 md:grid-cols-1 gap-7 md:order-1'>
+    <div className=' w-full  grid grid-cols-1 lg:grid-cols-2 md:grid-cols-1 gap-7 md:order-1'>
         <div>
             <div className='flex flex-col gap-1'>
                 <span className='flex items-center gap-5'>
