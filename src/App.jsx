@@ -6,6 +6,7 @@ import axios from 'axios'
 import Layout from "./comp/Layout/Layout.jsx"
 import Home from "./comp/Home/Home.jsx"
 import Services from './comp/Services/Services.jsx'
+import About from './comp/About/About.jsx'
 
 
 
@@ -21,6 +22,7 @@ function App() {
         { index : true , element: <Navigate to="home" replace />},
         { path : "home" , element: <Home/> },
         { path : "services" , element: <Services/> },
+        { path : "about" , element: <About/> },
         // { path : "docs" , element: <Docs/> },
       ],
       

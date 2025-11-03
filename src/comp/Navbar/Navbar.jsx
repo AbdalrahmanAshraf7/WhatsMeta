@@ -24,20 +24,17 @@ export default function Navbar() {
       </svg>
     </button>
     <div className={`${toggle == false ? "hidden" : "" } w-full md:block md:w-auto   " id="navbar-default`}>
-      <ul   onClick={()=>settoggle(false)} className="font-semibold flex flex-col    p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-white md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:white ">
-        <li>
-          <NavLink to={"home"} className="block py-2 px-3 text-black  rounded-sm md:bg-transparent  md:aria-[current=page]:bg-transparent md:p-0  aria-[current=page]:text-green-600  aria-[current=page]:bg-green-50 " aria-current="page">Home</NavLink>
+      <ul   onClick={()=>settoggle(false)} className="font-semibold flex flex-col      md:p-0 mt-4 border border-gray-100 rounded-lg bg-white md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:white ">
+        <li className='hover:bg-white md:hover:bg-green-100 py-3 px-2 rounded-lg'>
+          <NavLink to={"home"} className="block py-2 px-1  text-black  rounded-sm md:bg-transparent  md:aria-[current=page]:bg-transparent md:p-0  aria-[current=page]:text-green-600  aria-[current=page]:bg-green-50 " aria-current="page">Home</NavLink>
         </li>
-        <li>
-          <NavLink to={"services"} className="block py-2 px-3 text-black  rounded-sm md:bg-transparent  md:aria-[current=page]:bg-transparent md:p-0  aria-[current=page]:text-green-600 aria-[current=page]:bg-green-50" aria-current="page">Services</NavLink>
+        <li className='hover:bg-white md:hover:bg-green-100 py-3  px-2 rounded-lg'>
+          <NavLink to={"services"} className="block py-2 px-1  text-black  rounded-sm md:bg-transparent  md:aria-[current=page]:bg-transparent md:p-0  aria-[current=page]:text-green-600 aria-[current=page]:bg-green-50" aria-current="page">Services</NavLink>
         </li>
-        <li>
-          <NavLink to={"docs"} className="hidden  py-2 px-3 text-black  rounded-sm md:bg-transparent  md:aria-[current=page]:bg-transparent md:p-0  aria-[current=page]:text-green-600 aria-[current=page]:bg-green-50" aria-current="page">Documentation</NavLink>
+        <li className='hover:bg-white md:hover:bg-green-100 py-3  px-2 rounded-lg'>
+          <NavLink to={"about"} className="block py-2 px-1  text-black  rounded-sm md:bg-transparent  md:aria-[current=page]:bg-transparent md:p-0  aria-[current=page]:text-green-600 aria-[current=page]:bg-green-50" aria-current="page">About Us</NavLink>
         </li>
-     
-        
-        
-        
+       
       </ul>
     </div>
   </div>
