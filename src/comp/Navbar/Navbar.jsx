@@ -26,16 +26,16 @@ export default function Navbar() {
     <div className={`${toggle == false ? "hidden" : "" } w-full md:block md:w-auto   " id="navbar-default`}>
       <ul   onClick={()=>settoggle(false)} className="font-semibold flex flex-col      md:p-0 mt-4 border border-gray-100 rounded-lg bg-white md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:white ">
         <li className='hover:bg-white md:hover:bg-green-100 py-3 px-2 rounded-lg'>
-          <NavLink to={"home"} className="block py-2 px-1  text-black  rounded-sm md:bg-transparent  md:aria-[current=page]:bg-transparent md:p-0  aria-[current=page]:text-green-600  aria-[current=page]:bg-green-50 " aria-current="page">Home</NavLink>
+          <NavLink to={"home"} className="nunito block py-2 px-1  text-black  rounded-sm md:bg-transparent  md:aria-[current=page]:bg-transparent md:p-0  aria-[current=page]:text-green-600  aria-[current=page]:bg-green-50 " aria-current="page">Home</NavLink>
         </li>
         <li className='hover:bg-white md:hover:bg-green-100 py-3  px-2 rounded-lg'>
-          <NavLink to={"services"} className="block py-2 px-1  text-black  rounded-sm md:bg-transparent  md:aria-[current=page]:bg-transparent md:p-0  aria-[current=page]:text-green-600 aria-[current=page]:bg-green-50" aria-current="page">Services</NavLink>
+          <NavLink to={"services"} className="nunito block py-2 px-1  text-black  rounded-sm md:bg-transparent  md:aria-[current=page]:bg-transparent md:p-0  aria-[current=page]:text-green-600 aria-[current=page]:bg-green-50" aria-current="page">Services</NavLink>
         </li>
         <li className='hover:bg-white md:hover:bg-green-100 py-3  px-2 rounded-lg'>
-          <NavLink to={"about"} className="block py-2 px-1  text-black  rounded-sm md:bg-transparent  md:aria-[current=page]:bg-transparent md:p-0  aria-[current=page]:text-green-600 aria-[current=page]:bg-green-50" aria-current="page">About Us</NavLink>
+          <NavLink to={"about"} className="block py-2 nunito px-1  text-black  rounded-sm md:bg-transparent  md:aria-[current=page]:bg-transparent md:p-0  aria-[current=page]:text-green-600 aria-[current=page]:bg-green-50" aria-current="page">About Us</NavLink>
         </li>
         <li className='hover:bg-white md:hover:bg-green-100 py-3  px-2 rounded-lg'>
-          <NavLink to={"contact"} className="block py-2 px-1  text-black  rounded-sm md:bg-transparent  md:aria-[current=page]:bg-transparent md:p-0  aria-[current=page]:text-green-600 aria-[current=page]:bg-green-50" aria-current="page">Contact Us</NavLink>
+          <NavLink to={"contact"} className="block py-2 nunito px-1  text-black  rounded-sm md:bg-transparent  md:aria-[current=page]:bg-transparent md:p-0  aria-[current=page]:text-green-600 aria-[current=page]:bg-green-50" aria-current="page">Contact Us</NavLink>
         </li>
        
       </ul>

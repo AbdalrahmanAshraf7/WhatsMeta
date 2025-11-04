@@ -7,3 +7,27 @@
      background: linear-gradient(to bottom, #f9fff9 0%, #e2fee6 50%, #f9fff9 100%);
 }
 
+
+.icons-graid{
+     
+}
+
+
+.icons-graid:hover{
+   background: linear-gradient(135deg, #608cf0 0%, #532fe7 20%, #bb74f1 50%, #ef61b9 70%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 600;
+  background-size: 200%; 
+}
+
+
+.nunito {
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style:italic;
+  font-variation-settings:"wdth" 100,
+"YTLC" 500;
+}
