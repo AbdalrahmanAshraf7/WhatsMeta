@@ -12,7 +12,7 @@ export default function ContactUs() {
         Don't hesitate to contact us
     </div>
 
-    <div className='flex w-full p-5 justify-center  '>
+    <div className='md:flex flex-col w-full p-5 justify-center   '>
         <div className='  flex flex-col md:p-20 p-5 '>
 
             <div className='flex flex-col text-2xl'>
