@@ -1,5 +1,5 @@
 import React from 'react'
-import contact from "../../assets/contact.PNG"
+import contact from "../../assets/contact.png"
 
 export default function ContactUs() {
 
