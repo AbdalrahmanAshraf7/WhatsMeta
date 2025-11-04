@@ -34,6 +34,9 @@ export default function Navbar() {
         <li className='hover:bg-white md:hover:bg-green-100 py-3  px-2 rounded-lg'>
           <NavLink to={"about"} className="block py-2 px-1  text-black  rounded-sm md:bg-transparent  md:aria-[current=page]:bg-transparent md:p-0  aria-[current=page]:text-green-600 aria-[current=page]:bg-green-50" aria-current="page">About Us</NavLink>
         </li>
+        <li className='hover:bg-white md:hover:bg-green-100 py-3  px-2 rounded-lg'>
+          <NavLink to={"contact"} className="block py-2 px-1  text-black  rounded-sm md:bg-transparent  md:aria-[current=page]:bg-transparent md:p-0  aria-[current=page]:text-green-600 aria-[current=page]:bg-green-50" aria-current="page">Contact Us</NavLink>
+        </li>
        
       </ul>
     </div>

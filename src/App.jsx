@@ -7,6 +7,7 @@ import Layout from "./comp/Layout/Layout.jsx"
 import Home from "./comp/Home/Home.jsx"
 import Services from './comp/Services/Services.jsx'
 import About from './comp/About/About.jsx'
+import ContactUs from './comp/ContactUs/ContactUs.jsx'
 
 
 
@@ -23,6 +24,7 @@ function App() {
         { path : "home" , element: <Home/> },
         { path : "services" , element: <Services/> },
         { path : "about" , element: <About/> },
+        { path : "contact" , element: <ContactUs/> },
         // { path : "docs" , element: <Docs/> },
       ],
       
