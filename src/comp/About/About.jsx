@@ -7,7 +7,7 @@ export default function About() {
   <div className='flex flex-col md:flex-row mt-14   '>
     <div className='flex flex-col gap-2 p-3  md:w-[80%]   '>
         <span className='flex flex-col gap-1 p-3 lg:px-52'>
-         <p className='font-bold text-green-600 text-xl'>
+         <p className='font-bold text-green-600 text-xl nunito'>
             Our message 
          </p>
          <p className='font-medium text-[19px] md:text-[15px] '>
@@ -15,7 +15,7 @@ export default function About() {
          </p>
         </span>
         <span className='flex flex-col gap-1 p-3  lg:px-52'>
-         <p className='font-bold text-green-600 text-xl '>
+         <p className='font-bold text-green-600 text-xl nunito '>
             Our goal
  
          </p>
@@ -24,7 +24,7 @@ export default function About() {
          </p>
         </span>
         <span className='flex flex-col gap-1 p-3  lg:px-52'>
-         <p className='font-bold text-green-600 text-xl'>
+         <p className='font-bold text-green-600 text-xl nunito'>
            Our mission
 
          </p>
@@ -48,7 +48,7 @@ export default function About() {
      <div className='flex flex-col md:flex-row w-full'>
     <div className=' w-full p-5 flex justify-end lg:justify-center md:order-2 '>
 
-<div className="flex  md:w-[400px] w-[250px] h-[400px] bg-green-700  justify-center items-center rounded-tl-[200px] rounded-bl-[250px] rounded-tr-[50px] rounded-br-[50px] mb-5">
+<div className="flex  md:w-[400px] w-[250px] h-[400px] nunito  bg-green-700  justify-center items-center rounded-tl-[200px] rounded-bl-[250px] rounded-tr-[50px] rounded-br-[50px] mb-5">
     <span className="text-2xl font-bold text-white">
         Our Priority
     </span>

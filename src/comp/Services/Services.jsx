@@ -3,7 +3,7 @@ import React from 'react'
 export default function Services() {
   return <>
   
-      <div className='my-7'><h2 className='text-center font-bold text-[30px]  md:text-[60px] text-[#292d32] '> Our Services & Features</h2></div>
+      <div className='my-7'><h2 className='text-center font-bold text-[30px]  md:text-[60px] text-[#292d32] nunito '> Our Services & Features</h2></div>
       <div className='grid  grid-cols-1 place-items-center p-5 md:p-28   gap-5      md:grid-cols-2   md:px-14 lg:grid-cols-3 lg:px-32 mb-32  border-green-400 shadow-[inset_0_0_25px_5px_rgba(144,238,144,0.6)]    '>
 
   <div className=" cursor-pointer hover:border-1 hover:shadow-2xl transition-all duration-100 hover:border-black max-w-sm p-9 bg-white border border-gray-200 rounded-lg shadow-sm ">
