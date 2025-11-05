@@ -150,5 +150,23 @@
     height: 150px;
     padding: 150px;
     background-size: contain;
+    
   }
+}
+
+
+@media (max-width: 480px) {
+  .comments {
+
+    left:12%;
+    top: 13%
+  
+  }
+
+  .w-photo{
+    max-width: 130px;
+  }
+
+
+  
 }

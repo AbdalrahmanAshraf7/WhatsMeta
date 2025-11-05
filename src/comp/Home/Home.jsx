@@ -38,12 +38,12 @@ export default function Home() {
 
   <div className='phone relative rotate-[90deg] md:me-32  '>
 
-           <div className='flex justify-center items-center pt-0 p-24 z-3 absolute rotate-[270deg] md:top-[20%] md:left-[19%] top-[13%] left-[13%]'>
+           <div className='flex justify-center items-center pt-0 p-24 z-3 absolute rotate-[270deg] md:top-[20%] md:left-[19%] top-[13%] left-[13%] comments'>
   <Swiper
     modules={[Navigation, Pagination]}
     navigation={true}
     pagination={{ clickable: true }}
-    className='w-full md:max-w-[400px] max-w-[200px] flex justify-center  items-center  mx-auto '
+    className='w-full md:max-w-[400px] max-w-[200px] w-photo  flex justify-center  items-center  mx-auto '
   >
     <SwiperSlide className='flex justify-center items-center '>
       <img className=' object-contain mt-[30%]' src={feedBack1} alt="feedback 1" />
