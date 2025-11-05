@@ -130,6 +130,7 @@
   height: 500px;
   background-repeat: no-repeat;
   padding: 500px;
+  
 
 }
 
@@ -141,6 +142,12 @@
     padding: 200px;
     background-size: contain;
   }
+
+  .swiper-button-prev,
+.swiper-button-next {
+  color: rgb(30, 229, 30) !important; 
+  scale: 0.3; 
+}
 }
 
 /* لو عايزها أصغر كمان للموبايلات الصغيرة جداً */
@@ -152,6 +159,13 @@
     background-size: contain;
     
   }
+
+
+  .swiper-button-prev,
+.swiper-button-next {
+  color: rgb(30, 229, 30) !important; 
+  scale: 0.3; 
+}
 }
 
 
@@ -168,5 +182,50 @@
   }
 
 
+
+  .swiper-button-prev,
+.swiper-button-next {
+  color: rgb(30, 229, 30) !important; 
+  scale: 0.3; 
+}
+
+
   
+}
+
+
+
+
+
+
+
+
+.swiper-button-prev {
+  left: -10px !important;
+}
+
+.swiper-button-next {
+  right: -10px !important; 
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: rgb(30, 229, 30) !important; 
+  scale: 0.5; 
+}
+
+
+@media (max-width: 768px) {
+  .swiper-button-prev {
+    left: -20px;
+  }
+  .swiper-button-next {
+    right: -20px;
+  }
+}
+
+
+.no-out{
+
+  overflow: visible !important;
 }

@@ -43,7 +43,7 @@ export default function Home() {
     modules={[Navigation, Pagination]}
     navigation={true}
     pagination={{ clickable: true }}
-    className='w-full md:max-w-[400px] max-w-[200px] w-photo  flex justify-center  items-center  mx-auto '
+    className='w-full md:max-w-[400px] max-w-[200px] w-photo  flex justify-center  items-center  mx-auto  '
   >
     <SwiperSlide className='flex justify-center items-center '>
       <img className=' object-contain mt-[30%]' src={feedBack1} alt="feedback 1" />
